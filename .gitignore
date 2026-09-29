@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# RoadWatch runtime files
+# =========================
+# RoadWatch generated files
+roadwatch/uploads/*
+roadwatch/outputs/*
+
+# Keep empty runtime directories
+!roadwatch/uploads/.gitkeep
+!roadwatch/outputs/.gitkeep
+
+# Keep folders in repository
+!uploads/.gitkeep
+!outputs/.gitkeep
+
+# SQLite / local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# ML model artifacts
+# =========================
+yolov8n_openvino_model/
+*.onnx
+*.engine
+
+# Keep YOLO weights downloaded automatically rather than committing them
+*.pt
+
+# =========================
+# Frontend / Node
+# =========================
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.log
