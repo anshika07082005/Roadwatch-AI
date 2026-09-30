@@ -126,7 +126,7 @@ http://127.0.0.1:8000/docs
 Open another terminal and move to the frontend directory:
 
 ```powershell
-cd RoadWatch_frontend\roadwatch_frontend
+cd frontend\roadwatch_frontend
 npm install
 npm run dev
 ```
